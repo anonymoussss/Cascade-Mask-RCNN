@@ -7,6 +7,12 @@ This repository is based on matterport's Mask RCNN,  All codes are the same as m
 
 **All you need to do is replace the 'mrcnn/model.py'  to the original file** 
 
+then, I change the original code  samples/ballon.py to carplate.py, try 
+
+```
+python carplate.py train --dataset=..\..\datasets\carplates --weights=coco   
+```
+
 ## Reference
 
 According to the paper, I use the (c) architecture written by the author.
